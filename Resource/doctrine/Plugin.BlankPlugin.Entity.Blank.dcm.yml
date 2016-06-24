@@ -1,0 +1,18 @@
+Plugin\BlankPlugin\Entity\Blank:
+    type: entity
+    table: plg_blank
+    repositoryClass: Plugin\BlankPlugin\Repository\BlankRepository
+    id:
+        id:
+            type: integer
+            nullable: false
+            unsigned: false
+            id: true
+            column: blank_id
+            generator:
+                strategy: AUTO
+    fields:
+        name:
+            type: text
+            nullable: true
+    lifecycleCallbacks: {  }

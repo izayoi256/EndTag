@@ -1,0 +1,9 @@
+name: 空のプラグイン
+event: Event
+code: BlankPlugin
+version: 1.0.0
+orm.path:
+    - /Resource/doctrine
+    - /Resource/doctrine/master
+service:
+    - BlankPluginServiceProvider
