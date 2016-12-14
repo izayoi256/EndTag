@@ -21,17 +21,6 @@ class EndTagServiceProvider implements ServiceProviderInterface
 
     public function initForm(BaseApplication $app)
     {
-        $app['form.types'] = $app->share(
-            $app->extend(
-                'form.types',
-                function ($types) use ($app) {
-//                    $types[] = new \Plugin\EndTag\Form\Type\BlankType($app);
-
-                    return $types;
-                }
-            )
-        );
-
         $app['form.type.extensions'] = $app->share(
             $app->extend(
                 'form.type.extensions',
