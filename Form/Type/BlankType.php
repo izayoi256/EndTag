@@ -5,7 +5,7 @@
  * http://daisy.link/
  */
 
-namespace Plugin\BlankPlugin\Form\Type;
+namespace Plugin\EndTag\Form\Type;
 
 use Eccube\Application;
 use Eccube\Form\DataTransformer;
@@ -39,7 +39,7 @@ class BlankType extends AbstractType
     public function configureOptions(OptionsResolver $resolver)
     {
         $resolver->setDefaults(array(
-            'data_class' => 'Plugin\BlankPlugin\Entity\Blank',
+            'data_class' => 'Plugin\EndTag\Entity\Blank',
         ));
     }
 

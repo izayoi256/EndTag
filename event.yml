@@ -1,0 +1,2 @@
+eccube.event.route.entry.response:
+    - [onEntryResponse, NORMAL]

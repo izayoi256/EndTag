@@ -5,7 +5,7 @@
  * http://daisy.link/
  */
 
-namespace Plugin\BlankPlugin\Common;
+namespace Plugin\EndTag\Common;
 
 class Constant
 {

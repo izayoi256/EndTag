@@ -1,0 +1,11 @@
+<div class="dl_table">
+    <dl id="{% if form.vars.valid %}confirm_box__hoge{% else %}top_box__hoge{% endif %}">
+        <dt>
+            {{ form_label(form.hoge) }}
+        </dt>
+        <dd class="form-group">
+            {{ form_widget(form.hoge) }}
+            {{ form_errors(form.hoge) }}
+        </dd>
+    </dl>
+</div>
